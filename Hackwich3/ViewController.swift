@@ -30,7 +30,7 @@ class ViewController: UIViewController {
             //if block
             self.view.backgroundColor = UIColor.red
             //Problem Set 1:
-            firstLabel.textColor = UIColor.red
+            firstLabel.text = "red"
         }
         
         else
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
             //else block
             self.view.backgroundColor = UIColor.blue
             //Problem Set 1:
-            secondLabel.textColor = UIColor.blue
+            secondLabel.text = "blue"
         }
     
     }
